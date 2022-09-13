@@ -1,0 +1,52 @@
+What is the HTTP/2 Protocol
+* HTTP stands for hypertext transfer protocol, and it is the basis for almost all web applications.
+*  
+* More specifically, HTTP is the method computers and servers use to request and send    information.
+* 
+* There have been four HTTP iterations since its introduction in 1991.
+
+
+HTTP Versions :
+
+* The first version of HTTP was called HTTP/1.1.
+o This version is still in use on the web
+* HTTP/1 was known to have poor response time. With websites becoming more resource-intensive, the protocol was losing its efficiency
+
+Why we switch on HTTP/2:
+
+
+* HTTP/2 was released in 2015 as a major revision to the HTTP/1.1 protocol. It was derived from the SPDY protocol as a way to improve the online experience by speeding up page loads and reducing round-trip time (RTT), especially on resource-heavy web pages
+
+o HTTP/2 solves several problems that the creators of HTTP/1.1 did not anticipate
+
+o In particular, HTTP/2 is much faster and more efficient than HTTP/1.1. 
+
+* One of the ways in which HTTP/2 is faster is in how it prioritizes content during the loading process. HTTP/2, based on SPDY protocol, was developed to address the inherent     limitations of  HTTP/1.1 and further progress the Internet.    
+
+
+          
+
+
+High Level difference between HTTP1 and HTTp2:
+
+* HTTP2 is binary, instead of textual 
+* HTTP2 is fully multiplexed, instead of ordered and blocking
+* HTTP2 can, therefore, use one connection for parallelism
+* HTP2 uses header compression to reduce overhead
+
+IT’S A VERY REAL-WORLD EXAMPLE OF WHAT MODERN WEBSITE LOOKS LIKE TODAY
+:  
+Image Source : HTTP/2 — A Real-World Performance Test and Analysis by David Attard
+
+
+My conclusions are therefore:
+1.   HTTP/2 is faster in terms of performance and site loading time than HTTP1.x.
+2. HTTP/2 allows clients to make multiple requests over one TCP connection while HTTP/1.1 allows only one request (even with request pipelining).
+3.   In short, HTTP/2 helps to boost network performance (reduced total number of TCP connections, faster RTT, less resource consumptions) while still supporting all core features of HTTP/1.1
+
+                                      Difference between HTTP1.1 vs HTTP2
+
+
+13/09/2022
+
+

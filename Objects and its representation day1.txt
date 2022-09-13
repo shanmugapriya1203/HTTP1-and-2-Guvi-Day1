@@ -1,0 +1,55 @@
+OBJECTS:
+
+In JavaScript, an object is a standalone entity, with properties and type.
+In real life, a car is an object.
+A car has properties like weight and color, and methods like start and stop.
+All cars have the same properties, but the property values differ from car to car.
+All cars have the same methods, but the methods are performed at different times.
+The syntax of creating object directly is given below:
+
+
+Example :
+This code assigns a simple value (Benz) to a variable named car:
+let car = "Benz";
+BUT :
+This code assigns many values (Benz, GLS, white) to a variable named car:
+const car = {type:"Benz", model:"GLS", color:"white"};[SM1]
+
+
+ NOTE :
+
+The values are written as name:value pairs (name and value separated by a colon).
+To declare objects with the const keyword is useful.. A shelf with several items in it
+
+In the following sample code, the values are both arrays and objects:
+
+const object2 = {
+users: ["Alex", "James", "Mohammed"],
+professions: {
+alex: "software engineer",
+james: "lawyer",
+mohammed: "technical writer"
+}
+};
+console.log(object2.users); //['Alex', 'James', 'Mohammed']
+console.log(object2.professions); //{alex: 'software engineer', james: 'lawyer', mohammed: 'technical writer'}
+
+
+Accessing Javascript objects:
+The syntax for accessing the property of an object is:
+objectName.property
+or
+objectName[“property”]
+Accessing ‘fname’ from example 1 using dot operator,
+
+Accessing ‘name’ form example 2 using [],
+
+13-09-2022
+[SM1]Example
+OBJECTS AND ITS INTERNAL REPRESENTATION IN JAVASCRIPT
+
+
+
+2
+
+
